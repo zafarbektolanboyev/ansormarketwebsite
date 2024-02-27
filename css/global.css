@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Dancing Script', sans-serif;
+}
+.header__container {
+    max-width: 1110px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-left: 135px;
+}
+.header__menu {
+    display: flex;
+    gap: 30px;
+    margin-left: 600px;
+}
+.header__menu-item {
+    list-style: none;
+}
+.header__menu-item a{
+    text-decoration: none;
+    width: 50px;
+    color:black;
+    font-size: 25px;
+}
+.logo-img{
+    height: 80px;
+}
+
+
+/* footer */
+.footer__container {   
+    margin-left: 135px;
+    margin-top: 200px;
+}
+.footer-nav-logo{
+    display: flex;
+    align-items:center;
+}
+.footer__logo {
+}
+.footer__nav {
+}
+.footer__menu {
+    display: flex;
+    gap: 30px;
+    margin-left: 600px;
+}
+.footer__menu-item {
+    list-style: none;
+}
+.footer__menu-item a{
+    text-decoration: none;
+    width: 50px;
+    color:black;
+    font-size: 25px;
+}
+.footer__connection {
+    text-align: center;
+    margin-top: 30px;
+    margin-left: -50px;
+}
+.footer__content {
+    font-weight: 700;
+    height: 50px;
+}
+.local__content {
+    display: flex;
+    margin-left: 500px;
+    gap: 30px;
+}
+.local__content a{
+    text-decoration: none;
+}
+.content-h4{
+    color: black;
+    margin-top: 10px;
+}
