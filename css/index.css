@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+.hero__container {
+    width: 1110px;
+    height: 600px;
+    text-align: center;
+}
+.hero-content{
+    display: flex;
+    margin-left: 155px;
+    align-items: center;
+    justify-content: space-between;
+}
+.container {
+}
+.hero-title {
+    margin-top: 150px;
+    margin-left: 165px;
+}
+.hero-img{
+    margin-top: 150px;
+    margin-right: 165px;
+}
+
+
+/* filialarimiz */
+.section__container {
+    margin-left: 165px;
+}
+.section-title {
+    text-align: center;
+}
+.section__filial {
+    display: flex;
+    margin-top: 50px;
+    gap: 30px;
+}
+.section-card {
+
+}
+.section__card-img {
+}
+.section__card-h5 {
+}
+.section__card-h5 span{
+    color: black;
+    font-weight: 700;
+}
