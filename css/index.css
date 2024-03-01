@@ -19,6 +19,7 @@
 .hero-title {
     margin-top: 150px;
     margin-left: 165px;
+    font-size: 35px;
 }
 .hero-img{
     margin-top: 150px;
@@ -31,21 +32,50 @@
     margin-left: 165px;
 }
 .section-title {
-    text-align: center;
+    margin-left: 375px;
+    font-size: 30px;
 }
 .section__filial {
     display: flex;
     margin-top: 50px;
     gap: 30px;
+    margin-left: 150px;
+    margin-top: 50px;
 }
 .section-card {
-
+    width: 350px;
+    height: 150px;
+    margin-bottom: 150px;
+    margin-top: 25px;
 }
 .section__card-img {
+    border-radius: 5px;
 }
 .section__card-h5 {
+    font-size: 20px;
+    margin-bottom: 50px;
 }
-.section__card-h5 span{
+.section__card-h5 .span1{
     color: black;
     font-weight: 700;
+    font-size: 30px;
+}
+.card-btn{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding: 12px 65px;
+    margin-bottom: 200px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-bottom: 200px;
+    transition: all 0.5s;
+}
+.card-btn:hover{
+    background-color: black;
+    color: white;
+    border: none;
+}
+.footer__container{
+    margin-top: 200px;
 }
