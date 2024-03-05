@@ -1,3 +1,33 @@
-.milliy-food{
+.hero__container {
+}
+.hero-milliyfood {
+    margin-left: 165px;
+    flex-wrap: wrap;
+}
+.hero-title {
+    margin-top: 50px;
+    margin-left: 400px;
+    margin-bottom: 50px;
+    font-size: 35px
+}
+.milliy-food {
     width: 150px;
+    height: 100px;
+    margin-left: 50px;
+    border-radius: 10px;
+    margin-top: 20px;
+    border: 1px solid black;
+    transition: all 0.5s;
+}
+.milliy-food:hover{
+    background-color: antiquewhite;
+}
+
+.hero-fastfood{
+    margin-left: 165px;
+}
+.hero-fastfood-title{
+    margin-left: 400px;
+    margin-top: 100px;
+    font-size: 35px;
 }

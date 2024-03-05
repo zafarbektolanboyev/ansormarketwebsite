@@ -13,6 +13,7 @@ body{
     align-items: center;
     margin-left: 135px;
     height: 150px;
+    margin-right: 100px;
 }
 .header__menu {
     display: flex;
@@ -22,19 +23,22 @@ body{
 .header__menu-item {
     list-style: none;
 }
-.header__menu-item:hover{
-    color: blue;
-}
 .header__menu-item a{
     text-decoration: none;
     width: 50px;
     color:black;
-    font-size: 25px;
+    font-size: 35px;
+    transition: all 0.5s;
+}
+.header__menu-item a:hover{
+    color: bisque;
 }
 .logo-img{
     height: 80px;
 }
-
+.logo-img:hover{
+    color: gray;
+}
 
 /* footer */
 .footer__container {   
@@ -45,7 +49,6 @@ body{
     display: flex;
     align-items:center;
 }
-
 .footer__menu {
     display: flex;
     gap: 30px;
@@ -54,30 +57,33 @@ body{
 .footer__menu-item {
     list-style: none;
 }
-.footer__menu-item:hover{
-    color: blue;
+.footer__menu-item a:hover{
+    color: bisque;
 }
 .footer__menu-item a{
     text-decoration: none;
     width: 50px;
     color:black;
-    font-size: 25px;
+    font-size: 35px;
+    transition: all 0.5s;
 }
 .footer__connection {
     text-align: center;
     margin-top: 30px;
-    margin-left: -50px;
+    margin-right: 150px;
 }
 .footer__content {
     font-weight: 700;
     height: 50px;
-    font-size: 20px;
+    font-size: 35px;
     margin-bottom: 5px;
+    margin-left: -100px;
 }
 .local__content {
     display: flex;
-    margin-left: 470px;
+    margin-left: 370px;
     gap: 30px;
+    margin-bottom:50px;
 }
 .local__content a{
     text-decoration: none;
@@ -85,4 +91,7 @@ body{
 .content-h4{
     color: black;
     margin-top: 10px;
+}
+.local__content a:hover{
+    color: black;
 }
