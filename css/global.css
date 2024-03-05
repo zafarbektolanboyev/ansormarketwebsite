@@ -45,10 +45,7 @@ body{
     display: flex;
     align-items:center;
 }
-.footer__logo {
-}
-.footer__nav {
-}
+
 .footer__menu {
     display: flex;
     gap: 30px;
