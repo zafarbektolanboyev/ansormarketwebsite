@@ -1,11 +1,4 @@
 /* kids hero */
-.hero__container {
-}
-.hero__img__content{
-    
-}
-.container {
-}
 .hero-img {
     margin-left: 320px;
 }
@@ -40,17 +33,12 @@
     display: flex;
     justify-content:space-evenly;
 }
-.section-content {
-}
 .section-img1,
 .section-img2,
 .section-img3{
     width: 214px;
     border-radius:10px;
     height: 192px;
-}
-.section-img3{
-    /* margin-left: 90px; */
 }
 
 .section__content-p{
